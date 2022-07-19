@@ -2,7 +2,7 @@
 
 ## Usage/Examples
 
-Javascript:
+HTML:
 ```html
 <form action="" method="POST">
     <div class="container">
