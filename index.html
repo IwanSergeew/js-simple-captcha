@@ -26,10 +26,7 @@
             const submitBtn = document.getElementById('formSubmit');
             const captchaInput = document.getElementById('captchaInput');
             submitBtn.addEventListener('click', (e) => {
-                if(captchaInput.value !== captcha.text) {
-                    alert('Invalid captcha');
-                    captcha.generateCaptcha();
-                    captchaInput.value = '';
+                if(!captcha.validate(captchaInput)) {
                     e.preventDefault();
                     return;
                 }
