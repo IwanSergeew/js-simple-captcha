@@ -2,6 +2,10 @@
 
 ## Usage/Examples
 
+Javascript (head):
+```javascript
+<script src="captcha.js"></script>
+```
 HTML:
 ```html
 <form action="" method="POST">
@@ -13,7 +17,7 @@ HTML:
     <button type="submit" id="formSubmit">Submit</button>
 </form>
 ```
-Javascript:
+Javascript (footer):
 ```javascript
   const captcha = new Captcha({
       id: 'captcha',
